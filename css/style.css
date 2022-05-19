@@ -39,20 +39,20 @@ body {
   width: 390px;
 }
 
-.main.line {
+.main-line {
   width: 80px;
   height: 3px;
   background-color: #FF7500;
 }
 
-.main.h {
+.main-h {
   font-size: 40px;
   line-height: 1.2;
   font-family: 'Roboto Condensed', 'Arial', 'Roboto', sans-serif;
 }
 
 
-.main.img {
+.main-img {
   width: 510px;
   height: 510px;
 }
