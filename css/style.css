@@ -5,11 +5,28 @@ body {
   letter-spacing: 0.5px;
 }
 
+*:focus {
+  outline: 2px dotted #FF7500;
+  outline-offset: 3px;
+}
+
 .site-header {
   background: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.logo-link {
+  transition: opasity 0.4s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:active {
+  opacity: 0.6;
 }
 
 .site-header-div {
@@ -30,6 +47,16 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 0.4s ease,
+  opacity 0.4s ease ;
+}
+
+.sitenav-link:hover {
+  color: #FF7500;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
 }
 
 .main-link {
@@ -38,6 +65,15 @@ body {
   background: #FF7500;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.4s ease;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+
+.main-link:active {
+  opacity: 0.6;
 }
 
 .main-python{
@@ -141,9 +177,9 @@ body {
 }
 
 .site-footer-div {
-display: flex;
-align-items: center;
-justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .site-footer ul {
@@ -151,9 +187,22 @@ justify-content: space-between;
 }
 
 .site-footer-socials {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
+
+.site-footer-socials a {
+  color: #000;
+}
+
+.site-footer-socials a:hover {
+  color: #FF7500;
+}
+
+.site-footer-socials a:active {
+opacity: 0,6;
+}
+
 
 .site-footer-hr {
   height: 2px;
@@ -161,7 +210,7 @@ align-items: center;
 }
 
 .footer-div {
-display: flex;
+  display: flex;
 }
 
 .site-footer-links {
@@ -170,8 +219,14 @@ display: flex;
 }
 
 .site-footer-links a {
-  font-size: 16px;
-  line-height: 19px;
   text-decoration: none;
   color: #252420;
+}
+
+.site-footer-links a:hover {
+  color: #FF7500;
+}
+
+.site-footer-links a:active{
+  opacity: 0,6;
 }
