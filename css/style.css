@@ -13,6 +13,9 @@ body {
 .site-header {
   background: #fff;
   display: flex;
+ border-top: 5px solid #FF7500;
+ padding-top: 16px;
+ padding-bottom: 16px;
   align-items: center;
   justify-content: space-between;
 }
@@ -37,6 +40,7 @@ body {
 .sitenav-list {
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 .sitenav-link {
@@ -60,10 +64,14 @@ body {
 }
 
 .main-link {
+  display: inline-block;
+  padding: 12px 24px;
+    border-radius: 4px;
   font-size: 13px;
   line-height: 15px;
   background: #FF7500;
   color: #fff;
+  font-weight: bold;
   text-decoration: none;
   transition: opacity 0.4s ease;
 }
@@ -80,6 +88,8 @@ body {
   background: #252420;
   color: #fff;
   display: flex;
+padding-top: 80px;
+padding-bottom: 80px;
   justify-content: space-between;
   align-items: center;
 }
@@ -91,6 +101,7 @@ body {
 .main-line {
   width: 80px;
   height: 3px;
+  border: 0;
   background-color: #FF7500;
 }
 
@@ -104,30 +115,37 @@ body {
 .main-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
+.features {
+padding-top: 210px;
+padding-bottom: 210px;
+}
 
 .feature-h {
   width: 435px;
   font-size: 72px;
   line-height: 1.2;
-  font-size: 'Roboto condensed', 'Arial', 'Roboto',sans-serif;
+  font-family: 'Roboto condensed', 'Arial', 'Roboto',sans-serif;
   letter-spacing: 0.5px;
 }
 
 .main-ul {
   display: flex;
   justify-content: space-between;
+  padding: 0;
   list-style: none;
 }
 
-.feature {
+.feature-li {
   width: 340px;
 }
 
 .feature-icon {
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -139,9 +157,12 @@ body {
 
 
 .promo {
+border-radius: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 120px;
+  padding-bottom: 160px;
   background-color: #252420;
   color: #fff;
 }
@@ -165,6 +186,7 @@ body {
 .promo-image {
   width: 440px;
   height: 440px;
+  border-radius: 12px;
   object-fit: cover;
 }
 
@@ -173,6 +195,8 @@ body {
 }
 
 .site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #F8F8F8;
 }
 
@@ -184,10 +208,12 @@ body {
 
 .site-footer ul {
   list-style: none;
+  padding: 0;
 }
 
 .site-footer-socials {
   display: flex;
+  padding: 0;
   align-items: center;
 }
 
@@ -206,6 +232,7 @@ opacity: 0,6;
 
 .site-footer-hr {
   height: 2px;
+  border: 0;
   background: rgba(37, 36, 32, 0.5);
 }
 
